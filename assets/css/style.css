@@ -1,0 +1,52 @@
+body {
+  font-family: Georgia, "Times New Roman", Times, serif, sans-serif;
+  margin: 0 80px 0 80px;
+  background-image: url(https://images.unsplash.com/photo-1738168601630-1c1f3ef5a95a?q=80&w=1375&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+}
+ul {
+  list-style: none;
+  padding: 0;
+  background-color: rgb(247, 145, 127);
+  opacity: 85%;
+}
+li {
+  font-size: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 3px solid #ccc;
+}
+.completed {
+  text-decoration: double line-through;
+  color: black;
+  cursor: pointer;
+}
+button {
+  margin-left: 10px;
+  cursor: pointer;
+  background-color: white;
+  border-radius: 5%;
+  opacity: 85%;
+  color: red;
+}
+
+.agregar {
+  height: 40px;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  background-color: #bcf3e6;
+}
+
+input {
+  height: 30px;
+  width: 200px;
+  margin-right: 10px;
+  cursor: pointer;
+  border-radius: 5%;
+}
+
+h1 {
+  text-align: center;
+}

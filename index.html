@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tareas por hacer</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <h1>Organizador de Tareas</h1>
+
+    <input type="text" id="nuevaTarea" placeholder="Escribe una tarea..." />
+    <button class="agregar" onclick="agregarTarea()">Agregar una Tarea</button>
+
+    <h3>Total de Tareas: <span id="totalTareas">0</span></h3>
+    <h3>Tareas Completadas: <span id="tareasCompletadas">0</span></h3>
+
+    <ul id="listaTareas"></ul>
+
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
